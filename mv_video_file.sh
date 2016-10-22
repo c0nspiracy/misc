@@ -13,5 +13,4 @@ elif [ -f "$1" ]; then
   synoindex -a "${2}${1}";
 else
   echo "${1} does not exist";
-fi; 
-
+fi;
